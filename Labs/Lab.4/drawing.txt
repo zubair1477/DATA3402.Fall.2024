@@ -1,0 +1,5 @@
+RasterDrawing(40, 20)
+drawing.add_shape(Rectangle(10, 5, 5, 5))
+drawing.add_shape(Circle(3, 20, 10))
+drawing.add_shape(Triangle(6, 6, 6, 4, 30, 15))
+drawing.add_shape(CompoundShape([Rectangle(3, 3, 25, 2), Circle(2, 28, 5)]))
